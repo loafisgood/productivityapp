@@ -1,0 +1,192 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Mukta:wght@500&family=Signika:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Mukta:wght@500&family=Noto+Sans+JP:wght@500&family=Signika:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+SC&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.displayCurrent{
+    display: flex;
+    color: #000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+
+    height : 12%;
+    width: 100%;
+    padding : 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 768px){
+    .displayCurrent{
+        width: 50%;
+        height: 50%;
+        font-size: 2px;
+    }
+}
+
+
+
+.img{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+
+/* make a responsive background*/
+.background{
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+
+    top: 0;
+    left: 0;
+
+
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+
+
+
+
+.slider{
+
+    width: 100%;
+    height: 7.5%;
+ 
+
+    border-radius: 20px;
+    padding: 17px;
+    font-family: 'Montserrat', sans-serif;
+  
+    background: rgba(0,0,0,0.5);
+    
+}
+@media screen and (max-width: 768px){
+    .slider{
+        width: 70%;
+        height: 15%;
+        font-size: 2px;
+
+
+
+   
+        
+    }
+}
+
+.slider:hover{
+    background: rgba(0,0,0,0.7);
+    transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 768px){
+    .slider{
+        width: 75%;
+        height: 10%;
+        padding: 15px;
+        margin: 15px;
+    }
+}
+
+
+.Contents{
+
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.Center{
+    overflow: hidden;
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    z-index: 1;
+    border: 100px;
+
+}
+
+
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    transition: 0.2s ease-in;
+  
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 768px){
+    .Buttons{
+        font-size: 0.5rem;
+        width: 90%;
+
+    }
+}
+.PlayPause{
+    width: 5vw;
+    height: 5vh;
+    cursor : pointer;
+ 
+
+    margin: 0 10px;
+    transition: 0.2s ease-in;
+}
+@media screen and (max-width: 768px) {
+    .PlayPause{
+        width: 10vw;
+        height: 10vw;
+    }
+
+}
+.PlayPause:hover{
+    transition : 0.5s ease-in-and-out;
+    transform: scale(1.2);
+ 
+
+
+}
+
