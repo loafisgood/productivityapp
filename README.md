@@ -1,3 +1,5 @@
-# productivity-app
+# Productivity App
 
-hello
+Built with Chakra UI, React Player, and React JS. 
+
+
