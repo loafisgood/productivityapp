@@ -111,9 +111,9 @@ const Playmusic = () => {
     //States for the Backgrounds and Radio Arrays
     const [currentFont, setFont] = useState(false)
     const [currentDateTime, setCurrentDateTime] = useState("")
-    const [currentBackground, setCurrentBackground] = useState(Backgrounds[0].image)
+    const [currentBackground, setCurrentBackground] = useState(Backgrounds[2].image)
     const [currentRadio, setCurrentRadio] = useState(Radios[0].url)
-    const [backgroundName, setBackgroundName] = useState(Backgrounds[0].name)
+    const [backgroundName, setBackgroundName] = useState(Backgrounds[2].name)
     const [radioName, setRadioName] = useState(Radios[0].name)
     const [showNoteTaker, setShowNoteTaker] = useState(false)
     const [showPomodoro, setShowPomodoro] = useState(false)
