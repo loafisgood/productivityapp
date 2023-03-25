@@ -33,7 +33,6 @@ import animalcrossingdinner from '../images/animalcrossingdinner.png'
 import lofigirlbed from '../images/lofigirlbed.jpg'
 import loficoffeeshop from '../images/loficoffeeshop.jpg'
 import lofigirltent from '../images/lofigirltent.jpg'
-import minecraftfireflies from '../images/minecraftfireflies.gif'
 import minecraftshaders from '../images/minecraftshaders.png'
 
 
@@ -232,7 +231,7 @@ const Playmusic = () => {
                                 <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[4].image); setBackgroundName(Backgrounds[4].name)}}>Animal Crossing Dinner</MenuItem>
                                 <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[5].image); setBackgroundName(Backgrounds[5].name)}}>Lofi Girl Room</MenuItem>
                                 <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[6].image); setBackgroundName(Backgrounds[5].name)}}>Lofi Girl Tent</MenuItem>
-                                <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[7].image); setBackgroundName(Backgrounds[5].name)}}>Minecraft Night Time</MenuItem>
+                                <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[7].image); setBackgroundName(Backgrounds[7].name)}}>Minecraft Night Time</MenuItem>
                             </MenuGroup>
                         </MenuList>
                     </Menu>
