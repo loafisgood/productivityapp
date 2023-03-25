@@ -1,7 +1,7 @@
 {
   "name": "relax-app",
   "version": "0.1.0",
-  "homepage": "https://loafisgood.github.io/productivityapp",
+  "homepage": "https://loafisgood.github.io/productivityapp/",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
