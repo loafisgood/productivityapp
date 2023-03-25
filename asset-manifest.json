@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/productivity-app/static/css/main.defecf4d.css",
+    "main.js": "/productivity-app/static/js/main.b2c9199e.js",
+    "static/js/787.ff4093f7.chunk.js": "/productivity-app/static/js/787.ff4093f7.chunk.js",
+    "static/media/animalcrossingdinner.png": "/productivity-app/static/media/animalcrossingdinner.ba6acd46a336146ed3f5.png",
+    "static/media/animalcrossingramen.png": "/productivity-app/static/media/animalcrossingramen.f29cf6e3a3f2e7c31675.png",
+    "static/media/jazzcafe.gif": "/productivity-app/static/media/jazzcafe.a7c76b06c08a70ab6e31.gif",
+    "static/media/minecraftfireflies.gif": "/productivity-app/static/media/minecraftfireflies.aa82e6d0ad257784bec6.gif",
+    "static/media/loficoffeeshop.jpg": "/productivity-app/static/media/loficoffeeshop.39c2d49ae3a5d7b68092.jpg",
+    "static/media/lofigirlbed.jpg": "/productivity-app/static/media/lofigirlbed.0efb0a5c33fb019d5ba4.jpg",
+    "static/media/lofigirltent.jpg": "/productivity-app/static/media/lofigirltent.36a1fb6b382f30628939.jpg",
+    "static/media/minecraftshaders.png": "/productivity-app/static/media/minecraftshaders.7c8c4867d4b362e48dc9.png",
+    "static/media/VHSstore.png": "/productivity-app/static/media/VHSstore.fbd3399b7bceb254f3ae.png",
+    "static/media/tomato.svg": "/productivity-app/static/media/tomato.f8bae82b618431a57f425e2a87e33858.svg",
+    "index.html": "/productivity-app/index.html",
+    "main.defecf4d.css.map": "/productivity-app/static/css/main.defecf4d.css.map",
+    "main.b2c9199e.js.map": "/productivity-app/static/js/main.b2c9199e.js.map",
+    "787.ff4093f7.chunk.js.map": "/productivity-app/static/js/787.ff4093f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.defecf4d.css",
+    "static/js/main.b2c9199e.js"
+  ]
+}
