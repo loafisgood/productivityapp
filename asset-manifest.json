@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/productivityapp/static/css/main.defecf4d.css",
-    "main.js": "/productivityapp/static/js/main.219e19ff.js",
+    "main.js": "/productivityapp/static/js/main.9618e952.js",
     "static/js/787.ff4093f7.chunk.js": "/productivityapp/static/js/787.ff4093f7.chunk.js",
     "static/media/animalcrossingdinner.png": "/productivityapp/static/media/animalcrossingdinner.ba6acd46a336146ed3f5.png",
     "static/media/animalcrossingramen.png": "/productivityapp/static/media/animalcrossingramen.f29cf6e3a3f2e7c31675.png",
@@ -14,11 +14,11 @@
     "static/media/tomato.svg": "/productivityapp/static/media/tomato.f8bae82b618431a57f425e2a87e33858.svg",
     "index.html": "/productivityapp/index.html",
     "main.defecf4d.css.map": "/productivityapp/static/css/main.defecf4d.css.map",
-    "main.219e19ff.js.map": "/productivityapp/static/js/main.219e19ff.js.map",
+    "main.9618e952.js.map": "/productivityapp/static/js/main.9618e952.js.map",
     "787.ff4093f7.chunk.js.map": "/productivityapp/static/js/787.ff4093f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.defecf4d.css",
-    "static/js/main.219e19ff.js"
+    "static/js/main.9618e952.js"
   ]
 }
