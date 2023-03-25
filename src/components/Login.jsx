@@ -17,7 +17,7 @@ const Login = () => {
 
     const directToMain = (e) => {
         e.preventDefault();
-        { username!="" && password!="" ? navigate("/productivityapp/main") : alert("Please enter a username and password")}
+        { username!="" && password!="" ? navigate("/") : alert("Please enter a username and password")}
 
     }
 
