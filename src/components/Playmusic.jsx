@@ -16,7 +16,7 @@ import {
     MenuGroup,
     VStack,
     Text,
-    Input,
+    MenuDivider
     
 
 } from '@chakra-ui/react'
@@ -34,6 +34,12 @@ import lofigirlbed from '../images/lofigirlbed.jpg'
 import loficoffeeshop from '../images/loficoffeeshop.jpg'
 import lofigirltent from '../images/lofigirltent.jpg'
 import minecraftshaders from '../images/minecraftshaders.png'
+import lofiroom1 from '../images/lofiroom1.jpg'
+import lofiroom2 from '../images/lofiroom2.jpg'
+import lofiroom3 from '../images/lofiroom3.jpg'
+import login from '../images/login.gif'
+
+
 
 
 const Playmusic = () => {
@@ -76,8 +82,22 @@ const Playmusic = () => {
             name: "Minecraft Night Time",
             image: minecraftshaders,
         },
-
-
+        {
+            name: "Lofi Room 1",
+            image: lofiroom1,
+        },
+        {
+            name: "Lofi Room 2",
+            image: lofiroom2,
+        },
+        {
+            name: "Lofi Room 3",
+            image: lofiroom3,
+        },
+        {
+            name: "Lofi gif",
+            image: login,
+        },
 
 
     ]
@@ -106,13 +126,14 @@ const Playmusic = () => {
 
     ]
 
-
+    const previousBackground = localStorage.getItem("prevBackground")
+    const previousBackgroundName = localStorage.getItem("prevBackgroundName")
     //States for the Backgrounds and Radio Arrays
     const [currentFont, setFont] = useState(false)
     const [currentDateTime, setCurrentDateTime] = useState("")
-    const [currentBackground, setCurrentBackground] = useState(Backgrounds[2].image)
+    const [currentBackground, setCurrentBackground] = useState(previousBackground)
     const [currentRadio, setCurrentRadio] = useState(Radios[0].url)
-    const [backgroundName, setBackgroundName] = useState(Backgrounds[2].name)
+    const [backgroundName, setBackgroundName] = useState("Previous Background")
     const [radioName, setRadioName] = useState(Radios[0].name)
     const [showNoteTaker, setShowNoteTaker] = useState(false)
     const [showPomodoro, setShowPomodoro] = useState(false)
@@ -232,6 +253,19 @@ const Playmusic = () => {
                                 <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[5].image); setBackgroundName(Backgrounds[5].name)}}>Lofi Girl Room</MenuItem>
                                 <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[6].image); setBackgroundName(Backgrounds[5].name)}}>Lofi Girl Tent</MenuItem>
                                 <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[7].image); setBackgroundName(Backgrounds[7].name)}}>Minecraft Night Time</MenuItem>
+                            </MenuGroup>
+                        </MenuList>
+                    </Menu>
+                    <Menu>
+                        <MenuButton as={Button}  transition='all 0.2s' _hover={{ bg: 'gray.400' }} className={"Buttons"} rightIcon={<FaChevronDown/>}>
+                            More Backgrounds
+                        </MenuButton>
+                        <MenuList>
+                            <MenuGroup title="More">
+                                <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[8].image); setBackgroundName(Backgrounds[8].name)}}>Lofi Room 1</MenuItem>
+                                <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[9].image); setBackgroundName(Backgrounds[9].name)}}>Lofi Room 2</MenuItem>
+                                <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[10].image); setBackgroundName(Backgrounds[10].name)}}>Lofi Room 3</MenuItem>
+                                <MenuItem onClick={()=>{setCurrentBackground(Backgrounds[11].image); setBackgroundName(Backgrounds[11].name)}}>Lofi Gif</MenuItem>
                             </MenuGroup>
                         </MenuList>
                     </Menu>

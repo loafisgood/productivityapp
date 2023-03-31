@@ -15,8 +15,6 @@ import {
     MenuItem,
     Progress,
     Image,
-
-
 } from '@chakra-ui/react'
 import Draggable from 'react-draggable';
 import { FaChevronDown } from 'react-icons/fa';
@@ -27,7 +25,7 @@ import tomato from '../images/tomato.svg'
 
 const Pomodoro = ({close}) => {
 
-    const [time, setTime] = useState(0)
+    const [time, setTime] = useState(1500)
     const [isRunning, setIsRunning] = useState(false)
     const bellSound = "https://www.youtube.com/watch?v=nsw8H9V3D54&ab_channel=ProSounds"
 
@@ -67,16 +65,12 @@ const Pomodoro = ({close}) => {
                     <Button onClick={close} className={"CloseButton"} >X</Button>
                     <Heading colorScheme={"red"} > <u>Pomodoro Timer</u></Heading>
                     <Heading>{Math.floor(time / 60)}:{time % 60 < 10 ? "0" : ""}{time % 60}</Heading>
-                    <Image src={tomato} width={"50%"} padding={"25px"} draggable={"false"}></Image>
-
+                    <Image src={tomato} width={"30%"} padding={"20px"} draggable={"false"}></Image>
                     <HStack>
                          <Menu>
                             <MenuButton as={Button} rightIcon={<FaChevronDown />}>
                                 Select Time
                             </MenuButton>
-
-                            
-
                             <MenuList>
                                 <MenuItem onClick={()=>{ setTime(300)}}>5:00</MenuItem>
                                 <MenuItem onClick={()=>{ setTime(600)}}>10:00</MenuItem>

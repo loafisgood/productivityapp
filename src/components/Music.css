@@ -26,12 +26,14 @@ body{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     background-color: rgba(0, 0, 0, 0.5);
     transition: 0.2s ease-in;
+    z-index: 1;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
     .displayCurrent{
-        width: 50%;
-        height: 50%;
+        width: 100%;
+    
+   
         font-size: 2px;
     }
 }
@@ -58,6 +60,7 @@ body{
     position: fixed;
     min-width: 100%;
     min-height: 100%;
+
 
     top: 0;
     left: 0;
